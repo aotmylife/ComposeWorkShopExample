@@ -39,6 +39,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.oat.dev.composewithviewmodel.screen.DetailPageScreen
 import com.oat.dev.composewithviewmodel.screen.Screen
 import com.oat.dev.composewithviewmodel.ui.theme.ComposeWithViewModelTheme
 
@@ -165,12 +166,7 @@ fun MainPage(innerPadding: PaddingValues = PaddingValues(), viewModel: MainViewM
                 modifier = Modifier.fillMaxSize(),
                 contentAlignment = Alignment.Center
             ) {
-                Text(
-                    text = "Detail page",
-                    color = Color.Blue,
-                    fontWeight = FontWeight.Bold,
-                    fontSize = 48.sp
-                )
+                DetailPageScreen().DetailPage()
             }
         }
     }
