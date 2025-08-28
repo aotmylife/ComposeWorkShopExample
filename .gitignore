@@ -20,3 +20,4 @@ local.properties
 /.idea/misc.xml
 /.idea/migrations.xml
 /app/src/main/res/xml/backup_rules.xml
+/.idea/vcs.xml
