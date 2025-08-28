@@ -39,7 +39,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.oat.dev.composewithviewmodel.Screen.Screen
+import com.oat.dev.composewithviewmodel.screen.Screen
 import com.oat.dev.composewithviewmodel.ui.theme.ComposeWithViewModelTheme
 
 class MainActivity : ComponentActivity() {

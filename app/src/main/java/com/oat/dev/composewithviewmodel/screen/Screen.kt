@@ -1,4 +1,4 @@
-package com.oat.dev.composewithviewmodel.Screen
+package com.oat.dev.composewithviewmodel.screen
 
 import kotlinx.serialization.Serializable
 
